@@ -1,0 +1,4 @@
+@import "../../mixins";
+.edit-person {
+   @include main-style();
+}

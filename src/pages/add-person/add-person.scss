@@ -1,0 +1,4 @@
+@import "../../mixins";
+.add-person {
+   @include main-style();
+}

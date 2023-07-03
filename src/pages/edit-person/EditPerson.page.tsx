@@ -46,11 +46,11 @@ const EditPerson: React.FC = () => {
       .put(`${baseUrl}/${id}`, data)
       .then((resposne) =>
         redirect("/people", {
-          state: { message: "Person updated successfully" },
+          state: { message: "Person created successfully" },
         })
       )
       .catch((error) =>
-        alert("Error at the moment to update person: " + error.message)
+        alert("Error at the moment to created person: " + error.message)
       );
   };
 
@@ -60,7 +60,7 @@ const EditPerson: React.FC = () => {
 
   return (
     <div className="edit-person">
-      <h2>Edit person</h2>
+      <h2>Add new person</h2>
       <TextField
         autoComplete="off"
         label="First name"

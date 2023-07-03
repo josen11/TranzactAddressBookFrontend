@@ -15,7 +15,7 @@ const App: React.FC = () => {
       {/* Wrapper */}
       <div className="wrapper">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<People />} />
            {
           <Route path="/people">
            <Route index element={<People />} />

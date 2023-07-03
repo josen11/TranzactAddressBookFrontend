@@ -24,13 +24,10 @@ const Navbar: React.FC = () => {
         <ul>
           <Close className="close" onClick={toggleNavBar} />
           <li onClick={toggleNavBar}>
-            <Link to="/">Home</Link>
+            <Link to="/people">Contacts</Link>
           </li>
           <li onClick={toggleNavBar}>
-            <Link to="/people">People</Link>
-          </li>
-          <li onClick={toggleNavBar}>
-            <Link to="/people/add">Add People</Link>
+            <Link to="/people/add">Add Contact</Link>
           </li>
         </ul>
       </div>

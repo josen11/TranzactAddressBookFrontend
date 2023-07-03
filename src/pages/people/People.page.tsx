@@ -28,7 +28,7 @@ const People: React.FC = () => {
         redirect(location.pathname, { replace: true });
       }
     } catch (error) {
-      alert("An error happened");
+      alert("An error happened retrieven contacts: " + error);
     }
   };
 
@@ -38,11 +38,11 @@ const People: React.FC = () => {
 
   // console.log(people);
   const redirectToEditPage = (id: string) => {
-    redirect(`/people/edit/${id}`);
+    redirect(`/contacts/edit/${id}`);
   };
 
   const redirectToDeletePage = (id: string) => {
-    redirect(`/people/delete/${id}`);
+    redirect(`/contacts/delete/${id}`);
   };
 
   return (

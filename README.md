@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Tranzact_AddressBook_Frontend
+## Solution Technologies
+- React 18
+- Typescript
+  -  Typescript interface and typescript partial
+- SASS
+- Moment
+- Axios
+- Nested Routing
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

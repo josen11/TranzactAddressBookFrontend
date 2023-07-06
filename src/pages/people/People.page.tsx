@@ -47,9 +47,9 @@ const People: React.FC = () => {
 
   return (
     <div className="people">
-      <h1>Product List</h1>
+      <h1>Contact List</h1>
       {people.length === 0 ? (
-        <h1>No Products</h1>
+        <h1>No contacs</h1>
       ) : (
         <div className="table-wrapper">
           <table>
